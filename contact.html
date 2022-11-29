@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Tourism</title>
+  
+  <meta charest+"UTF-8">
+  
+   <style>
+ body{
+  
+  }
+  *{
+	box-sizing: border-box;
+  }
+  .topnav {
+	   top: 0;
+       position: sticky;
+       overflow: hidden;
+	   background-color: #5F9EA0;
+	   width:100%;
+	   float:center;
+	   
+            }
+    .topnav a {
+	   font-size:25px;
+       float: left;
+       display: hidden;
+       color:white;
+       text-align: center;
+       padding: 16px 18px;
+       text-decoration: none;
+	   margin-right:30px;
+	   margin-left:70px;
+	   border-radius: 15px;
+               }
+	
+                	
+    .topnav a:hover {
+      background-color:#DEB887;
+      color: white;
+                    }
+ 
+
+     .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+               }
+	#b {
+	color:#DEB887;
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:0px;
+	margin-left:80px;
+	}
+
+input[type=text], select {
+  border-radius: 15px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.row img{
+	float:right;
+	margin-right:100px;
+	margin-top:150px;
+	border-radius:10px;
+}
+
+
+button {
+  background-color:#000000;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+button:hover {
+  background-color:black;
+}
+
+
+.column {
+  margin-left:100px;
+  float: center;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+   padding:5px;
+   margin:10px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#5F9EA0;
+   color: white;
+   text-align: center;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+   width:100%;
+    margin-top: 0;
+  }
+
+
+</style>
+ </head>
+<body>
+<div class="clearfix">
+ </div>
+<div class="topnav">
+         <a href="Home_page.html" ><b>Home </b></a>
+		 <a href="search.html"><b>Search</b></a>
+		 <a href="places.html"><b>Places</b></a>
+         <a href="contact.html"><b>Contact</b></a>
+		 <a href="guidence.html"><b>Guidance service</b></a>
+		 
+</div>
+</br>
+</br>
+<div class="clearfix">
+ </div>
+<div class="container">
+  <div id="b">
+    <h1><b>Request a demo</b></h1>
+  </div>
+  <p style="margin-left:100px;">Tell us a little about yourself -
+	we'll connect you with a SmartGuide expert who will share more about the product
+	and answer any questions you have.</p>
+  <div class="row">
+	<img  src="places\p8.jpg" alt="Contact US" title="Contact US" width="450px" height="450px"  >
+
+    <div class="column" >
+      <form >
+        <label for="fname" ><p>First Name</p></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required >
+        <label for="lname"><p>Last Name</p></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        <label for="mail"><p>E-mail</p></label>
+        <input type="text" id="mail" name="ur mail" placeholder="Your e-mail.." required >
+		<label for="country"><p>Country</p></label>
+        <select id="country" name="country">
+		  <option value="egypt">Egypt</option>
+		  <option value="france">France</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+		<label for="yourAsk" ><p>What are you looking for?</p></label>
+        <input type="text" id="yourAsk" name="yourAsk" placeholder=".." required >
+		<label for="learnAboutUs" ><p>How did you learn about us?</p></label>
+        <input type="text" id="learnAboutUs" name="learnAboutUs" placeholder="e.g. Google Search , Personal reference, LinkedIN, Email.." required >
+
+		<b>Gender:</b> <input type="radio" id="n1" name="g"/> male <input type="radio" id="n2" name="g"> female <br/><br/>
+  		<button class="button"  onclick="#" style="float:right" >Submit</button>
+
+      </form>
+    </div>
+  </div>
+	</div>
+         <div class="footer">
+            <p>Subscribe to our newsletter to get the latest trends & news </br>Join our database NOW!<p>
+        </div>
+  
+</div>
+</body>
+</html>

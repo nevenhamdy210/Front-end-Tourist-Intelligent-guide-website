@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Guidance service</title>
+<meta charest+"UTF-8">
+<html lang="en-US">
+<style>
+
+
+    body {
+       font-family: Arial;
+
+          }
+    .topnav {
+	   top: 0;
+       position: sticky;
+       overflow: hidden;
+	   background-color: #5F9EA0;
+	   width:100%;
+	   float:center;
+	   
+            }
+    .topnav a {
+	   font-size:25px;
+       float: left;
+       display: hidden;
+       color:white;
+       text-align: center;
+       padding: 16px 18px;
+       text-decoration: none;
+	   margin-right:30px;
+	   margin-left:70px;
+	   border-radius: 15px;
+               }
+	
+                	
+    .topnav a:hover {
+      background-color:#DEB887;
+      color: white;
+                    }
+    .ques1{
+	float:left;
+	margin-left:80px;
+	
+	
+	}
+	.answers{
+    width:200px;
+	padding:20px;
+	float:right;
+	margin-right:300px;
+	}
+	.ques1 h1{
+	margin-left:100px;
+	
+	
+	}
+  select {
+  margin-right:20px;
+  margin-top:10px;
+  border-radius: 15px;
+  padding:20px;
+  border: none;
+  width: 100%;
+ 
+  border: 1px solid #ccc;
+  background-color:#DEB887;
+ 
+}
+select:hover{
+background-color:black;
+color:white;
+ 
+
+}
+#b {
+	color:#DEB887;
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:0px;
+	margin-left:80px;
+	}
+
+
+  .footer {
+   position: static;
+   left: 0;
+   right:0;
+   bottom: 0;
+   background-color:#5F9EA0; 
+   color: white;
+   text-align: center;
+   padding: 20px;
+   margin-top: 20px;
+ 
+}
+.button {
+  float:right;
+  margin-right:60px;
+  display: inline-block;
+  padding: 15px 25px;
+  margin-top:20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:gray;
+  border: none;
+  border-radius: 25px;
+ 
+}
+
+.button:hover {background-color:#DEB887;}
+
+.button:active {
+  background-color:#5F9EA0; rgb(124, 184, 197) ;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+         <a href="Home_page.html" ><b>Home </b></a>
+		 <a href="search.html"><b>Search</b></a>
+		 <a href="places.html"><b>Places</b></a>
+         <a href="contact.html"><b>Contact</b></a>
+		 <a href="guidence.html"><b>Guidance service</b></a>
+		 
+</div>
+
+
+</br></br>
+<div class="clearfix">
+<div id="b">
+    <h1><b>Guidance Services.. </b></h1></br>
+    </div>
+  <div class="clearfix">
+<div class="ques1">
+<h1>Which one of the following do you prefer?</h1>
+</div>
+<div class ="answers">
+<label for="Q4"></label>
+        <select id="Q4" name="Q4" >
+		  <option value="sea and beaches">sea and beaches</option>
+		  <option value="civic places">civic places</option>
+		  <option value="deserts and mountains">deserts and mountains</option>
+
+         
+        </select>
+</div>
+</div>
+</br></br>
+<div class="ques1">
+<h1>What kind of places do you want to visit?</h1>
+</div>
+<div class ="answers">
+<label for="Q1"></label>
+        <select id="Q1" name="Q1" >
+		  <option value="Entertaining">Entertaining</option>
+		  <option value="Historical">Historical</option> 
+          <option value="Comfortable">Comfortable</option>
+        </select>
+</div>
+</div>
+</br></br>
+
+<div class="clearfix">
+<div class="ques1">
+<h1>What kind of movements do you prefer?</h1>
+</div>
+<div class ="answers">
+<label for="Q3"></label>
+        <select id="Q3" name="Q3" >
+		<option value="Sit back and relax">Sit back and relax</option>
+		<option value="Hyperactivity">Hyperactivity</option>
+		<option value="Walking">Walking</option>
+          
+        </select>
+</div>
+</div>
+</br></br>
+<div class="clearfix">
+<div class="ques1">
+<h1>What kind of weather do you prefer?</h1>
+</div>
+<div class ="answers">
+<label for="Q2"></label>
+        <select id="Q2" name="Q2" >
+		  <option value="sunny">sunny</option>
+		  <option value="Mild weather">Mild weather</option>
+          <option value="cold">cold</option>
+        </select>
+</div>
+</div>
+</br></br>
+
+ <hr>
+    
+  <button class="button"  onclick="#"style="margin-right:270px;margin-bottom:20px;">Add Question</button>
+  <button class="button"  onclick="#"style="margin-right:270px;margin-bottom:20px;">Delete Question</button>
+  <button class="button"  onclick="#" style="margin-right:270px;margin-bottom:20px;">Edit Question</button>
+  </br></br>
+<div class="clearfix"></div>
+
+ 
+<div class="footer">
+         <p style="color:white; font-size:20px;">Subscribe to our newsletter to get the latest trends & news </br>Join our database NOW!<p>
+    </div>
+</div>
+
+
+</body>
+</html>

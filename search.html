@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charest+"UTF-8">
+
+
+<style>
+    
+
+    body {
+       font-family: Arial;
+          }
+    .topnav {
+	   top: 0;
+       
+       overflow: hidden;
+	   background-color: #5F9EA0;
+	   width:100%;
+	   float:center;
+	   
+            }
+    .topnav a {
+	   font-size:25px;
+       float: left;
+       display: hidden;
+       color:white;
+       text-align: center;
+       padding: 16px 18px;
+       text-decoration: none;
+	   margin-right:30px;
+	   margin-left:70px;
+	   border-radius: 15px;
+               }
+	
+                	
+    .topnav a:hover {
+      background-color:#DEB887;
+      color: white;
+                    }
+ 
+
+    .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+					}
+	.search {
+		background-image:url('p3.JPG');  
+		background-size:100% 100%;
+		background-attachment:fixed;
+		 height: 700px;
+		 width: 100%; 
+		 text-decoration:none;
+		 
+		
+		 
+	}
+	 .dropdown-menu {
+	 
+       padding-top:250px;  
+	   margin-left: 530px;
+	   font-size: 20px;
+       border: none;
+	   weigh:30px;
+	  
+	   
+           }
+
+    .form-control {
+	  border-radius:20px;
+	  border:none;
+	  position: relative;
+	  
+	  right:100px;
+	  
+      top: 55px;
+      padding: 10px;
+      background-color:rgba(51, 50, 49, 0.81);
+	  color: white;
+      font-size: 20px;
+	  width:52%;
+      border: 1px solid grey;
+      
+     }
+	 
+	
+	#search-icon{
+	position: relative;
+	border-radius:50px;
+    right:88px;
+    top: 55px;
+	width: 20%;
+	padding: 10px;
+	background-color:rgba(51, 50, 49, 0.81);
+	font-size: 20px;
+	color:white;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+
+		}
+	form.form-group button:hover {
+	background: #0b7dda;
+	
+	}
+	
+	
+	#search-icon:hover {
+	background-color:black;
+	color:#FFEBCD;
+		}
+		
+	form.form-group::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+	.footer {
+   position: static;
+   left: 0;
+   right:0;
+   bottom: 0;
+   background-color:#5F9EA0;black ;  
+   color: white;
+   text-align: center;
+   padding: 5px;
+   margin-top: 10px;
+ 
+}
+    
+    @media screen and (max-width: 600px) {
+    .topnav {
+       float: none;
+     }
+	 .subscribe{
+	 margin-left:1000px;
+	.search{
+    width: 85%;
+    margin-top: 0;
+	float: none;
+  }
+
+	 }
+	 
+	 
+   
+   
+}
+</style>
+</head>
+<body>
+
+
+		<div class="topnav">
+         <a href="Home_page.html" ><b>Home </b></a>
+		 <a href="search.html"><b>Search</b></a>
+		 <a href="places.html"><b>Places</b></a>
+         <a href="contact.html"><b>Contact</b></a>
+		 <a href="guidence.html"><b>For Partners</b></a>
+		</div>
+		<div class="clearfix">
+		<li class="search" style="list-style-type:none" >
+                <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <div class="search-icon"></div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <form class="subscribe" action="#" method="get">
+                        <div class="form-group">
+                         <input type="search" name="s" class="form-control" placeholder="What are you looking for?" value="">
+                        <button type="submit" onclick="#" id="search-icon"><i class="fa fa-search"></i></button>  
+                        </button>
+						</div>
+						
+                </form>
+                </div>
+				</li>
+				</div>
+		<div class="footer">
+         <p style="color:white; font-size:20px;">Subscribe to our newsletter to get the latest trends & news </br>Join our database NOW!<p>
+		</div>
+            
+				
+
+		
+
+
+</body>
+</html>
